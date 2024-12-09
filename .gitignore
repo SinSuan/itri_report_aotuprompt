@@ -1,4 +1,4 @@
 record/
 config.ini
-test*
+test.ipynb
 __pycache__/

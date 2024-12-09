@@ -1,0 +1,408 @@
+[
+    {
+        "prompt": "Classify the given sentence into its matching category from the list: (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+        "train_score": 56,
+        "dev_score": 101,
+        "preicision": {
+            "train": 0.28,
+            "dev": 0.33666666666666667
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Identify the category that corresponds to this sentence: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 57,
+                "dev_score": 86,
+                "precision": {
+                    "train": 0.285,
+                    "dev": 0.2866666666666667
+                }
+            },
+            "p_2": {
+                "prompt": "Classify this sentence into one of these categories: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 56,
+                "dev_score": 105,
+                "precision": {
+                    "train": 0.28,
+                    "dev": 0.35
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Categorize the given sentence according to the following categories: (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+        "train_score": 55,
+        "dev_score": 97,
+        "preicision": {
+            "train": 0.275,
+            "dev": 0.3233333333333333
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Classify this sentence based on the provided categories: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 58,
+                "dev_score": 97,
+                "precision": {
+                    "train": 0.29,
+                    "dev": 0.3233333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "Classify this sentence into one of these categories: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 56,
+                "dev_score": 105,
+                "precision": {
+                    "train": 0.28,
+                    "dev": 0.35
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Categorize the given sentence according to the specified classifications: (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+        "train_score": 54,
+        "dev_score": 101,
+        "preicision": {
+            "train": 0.27,
+            "dev": 0.33666666666666667
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Classify this sentence based on the provided categories: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 58,
+                "dev_score": 97,
+                "precision": {
+                    "train": 0.29,
+                    "dev": 0.3233333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "Classify this sentence by choosing one of the following options: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 58,
+                "dev_score": 111,
+                "precision": {
+                    "train": 0.29,
+                    "dev": 0.37
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Categorize the given sentence according to the provided categories: (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+        "train_score": 54,
+        "dev_score": 99,
+        "preicision": {
+            "train": 0.27,
+            "dev": 0.33
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Classify this sentence based on the provided categories: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 58,
+                "dev_score": 97,
+                "precision": {
+                    "train": 0.29,
+                    "dev": 0.3233333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "Using the following categories, classify this sentence: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 58,
+                "dev_score": 112,
+                "precision": {
+                    "train": 0.29,
+                    "dev": 0.37333333333333335
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Classify the given sentence into one of these categories: (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+        "train_score": 56,
+        "dev_score": 109,
+        "preicision": {
+            "train": 0.28,
+            "dev": 0.36333333333333334
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Assign this sentence to one of these categories: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 61,
+                "dev_score": 105,
+                "precision": {
+                    "train": 0.305,
+                    "dev": 0.35
+                }
+            },
+            "p_2": {
+                "prompt": "Determine the category that best describes this sentence: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 60,
+                "dev_score": 97,
+                "precision": {
+                    "train": 0.3,
+                    "dev": 0.3233333333333333
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Identify the category that best describes the given question and answer with (1) \"Description\", (2) \"Entity\", (3) \"Expression\", (4) \"Human\", (5) \"Location\", or (6) \"Number\".",
+        "train_score": 55,
+        "dev_score": 82,
+        "preicision": {
+            "train": 0.275,
+            "dev": 0.2733333333333333
+        },
+        "info": {
+            "p_1": {
+                "prompt": "You are given a question. You need to detect which category better describes the question. Answer with (1) \"Description\", (2) \"Entity\", (3) \"Expression\", (4) \"Human\", (5) \"Location\", and (6) \"Number\".",
+                "train_score": 62,
+                "dev_score": 106,
+                "precision": {
+                    "train": 0.31,
+                    "dev": 0.35333333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "Your task is to choose a type of the question, from Description, Entity, Expression, Human, Location and Number.",
+                "train_score": 51,
+                "dev_score": 99,
+                "precision": {
+                    "train": 0.255,
+                    "dev": 0.33
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Classify the given sentence into its most appropriate category among (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+        "train_score": 55,
+        "dev_score": 98,
+        "preicision": {
+            "train": 0.275,
+            "dev": 0.32666666666666666
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Identify the most suitable category for this sentence: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 64,
+                "dev_score": 106,
+                "precision": {
+                    "train": 0.32,
+                    "dev": 0.35333333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "Determine the category that best describes this sentence: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 60,
+                "dev_score": 97,
+                "precision": {
+                    "train": 0.3,
+                    "dev": 0.3233333333333333
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Select the right category for the given sentence among Description, Entity, Expression, Human, Location, and Number.",
+        "train_score": 49,
+        "dev_score": 83,
+        "preicision": {
+            "train": 0.245,
+            "dev": 0.27666666666666667
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Choose the appropriate classification for this sentence: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 66,
+                "dev_score": 111,
+                "precision": {
+                    "train": 0.33,
+                    "dev": 0.37
+                }
+            },
+            "p_2": {
+                "prompt": "Your task is to choose a type of the question, from Description, Entity, Expression, Human, Location and Number.",
+                "train_score": 51,
+                "dev_score": 99,
+                "precision": {
+                    "train": 0.255,
+                    "dev": 0.33
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Classify this sentence into one of the given categories: (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+        "train_score": 54,
+        "dev_score": 102,
+        "preicision": {
+            "train": 0.27,
+            "dev": 0.34
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Choose the appropriate classification for this sentence: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 66,
+                "dev_score": 111,
+                "precision": {
+                    "train": 0.33,
+                    "dev": 0.37
+                }
+            },
+            "p_2": {
+                "prompt": "Assign this sentence to one of these categories: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 61,
+                "dev_score": 105,
+                "precision": {
+                    "train": 0.305,
+                    "dev": 0.35
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Identify the category for this sentence: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+        "train_score": 56,
+        "dev_score": 89,
+        "preicision": {
+            "train": 0.28,
+            "dev": 0.2966666666666667
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Please pick the category that matches this sentence: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 67,
+                "dev_score": 117,
+                "precision": {
+                    "train": 0.335,
+                    "dev": 0.39
+                }
+            },
+            "p_2": {
+                "prompt": "Determine the category that best describes this sentence: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 60,
+                "dev_score": 97,
+                "precision": {
+                    "train": 0.3,
+                    "dev": 0.3233333333333333
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Classify the given sentence based on the provided categories: (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+        "train_score": 54,
+        "dev_score": 95,
+        "preicision": {
+            "train": 0.27,
+            "dev": 0.31666666666666665
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Please select the correct classification for this sentence: (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 67,
+                "dev_score": 125,
+                "precision": {
+                    "train": 0.335,
+                    "dev": 0.4166666666666667
+                }
+            },
+            "p_2": {
+                "prompt": "Using the following categories, classify this sentence: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 58,
+                "dev_score": 112,
+                "precision": {
+                    "train": 0.29,
+                    "dev": 0.37333333333333335
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Determine the appropriate classification for the given sentence from options (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+        "train_score": 52,
+        "dev_score": 96,
+        "preicision": {
+            "train": 0.26,
+            "dev": 0.32
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Please select the correct classification for this sentence: (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 67,
+                "dev_score": 125,
+                "precision": {
+                    "train": 0.335,
+                    "dev": 0.4166666666666667
+                }
+            },
+            "p_2": {
+                "prompt": "You are given a question. You need to detect which category better describes the question. Answer with (1) \"Description\", (2) \"Entity\", (3) \"Expression\", (4) \"Human\", (5) \"Location\", and (6) \"Number\".",
+                "train_score": 62,
+                "dev_score": 106,
+                "precision": {
+                    "train": 0.31,
+                    "dev": 0.35333333333333333
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Identify the category that corresponds to this question: Description (1), Entity (2), Expression (3), Human (4), Location (5), or Number (6).",
+        "train_score": 55,
+        "dev_score": 80,
+        "preicision": {
+            "train": 0.275,
+            "dev": 0.26666666666666666
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Determine the type of the given question and choose from Description, Entity, Expression, Human, Location and Number.",
+                "train_score": 68,
+                "dev_score": 110,
+                "precision": {
+                    "train": 0.34,
+                    "dev": 0.36666666666666664
+                }
+            },
+            "p_2": {
+                "prompt": "Identify the category that corresponds to this sentence: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 57,
+                "dev_score": 86,
+                "precision": {
+                    "train": 0.285,
+                    "dev": 0.2866666666666667
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Classify this sentence into one of these categories: (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+        "train_score": 56,
+        "dev_score": 109,
+        "preicision": {
+            "train": 0.28,
+            "dev": 0.36333333333333334
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Determine the type of the given question and choose from Description, Entity, Expression, Human, Location and Number.",
+                "train_score": 68,
+                "dev_score": 110,
+                "precision": {
+                    "train": 0.34,
+                    "dev": 0.36666666666666664
+                }
+            },
+            "p_2": {
+                "prompt": "Using the following categories, classify this sentence: Description, (1) Description, (2) Entity, (3) Expression, (4) Human, (5) Location, or (6) Number.",
+                "train_score": 58,
+                "dev_score": 112,
+                "precision": {
+                    "train": 0.29,
+                    "dev": 0.37333333333333335
+                }
+            }
+        }
+    }
+]

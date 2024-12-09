@@ -1,0 +1,350 @@
+[
+    {
+        "prompt": "Analyze a movie review text and classify it as subjective or objective.",
+        "train_score": 92,
+        "dev_score": 127,
+        "preicision": {
+            "train": 0.46,
+            "dev": 0.42333333333333334
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Determine the category of a movie review based on a given text, subjective or objective.",
+                "train_score": 109,
+                "dev_score": 151,
+                "precision": {
+                    "train": 0.545,
+                    "dev": 0.5033333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "evaluate the given sentences and determine whether they are subjective or objective.",
+                "train_score": 107,
+                "dev_score": 149,
+                "precision": {
+                    "train": 0.535,
+                    "dev": 0.49666666666666665
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Identify whether a movie review is subjective or objective based on the provided text.",
+        "train_score": 92,
+        "dev_score": 125,
+        "preicision": {
+            "train": 0.46,
+            "dev": 0.4166666666666667
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Determine the category of a movie review based on a given text, subjective or objective.",
+                "train_score": 109,
+                "dev_score": 151,
+                "precision": {
+                    "train": 0.545,
+                    "dev": 0.5033333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "evaluate each statement as either subjective or objective.",
+                "train_score": 103,
+                "dev_score": 140,
+                "precision": {
+                    "train": 0.515,
+                    "dev": 0.4666666666666667
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Determine if each sentence is objective or subjective while preserving its meaning.",
+        "train_score": 92,
+        "dev_score": 115,
+        "preicision": {
+            "train": 0.46,
+            "dev": 0.38333333333333336
+        },
+        "info": {
+            "p_1": {
+                "prompt": "evaluate each sentence as either objective or subjective.",
+                "train_score": 107,
+                "dev_score": 139,
+                "precision": {
+                    "train": 0.535,
+                    "dev": 0.4633333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "identify whether the given sentence was expressing an objective or a subjective opinion.",
+                "train_score": 95,
+                "dev_score": 121,
+                "precision": {
+                    "train": 0.475,
+                    "dev": 0.4033333333333333
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Classify a given statement as expressing a subjective or objective opinion.",
+        "train_score": 84,
+        "dev_score": 102,
+        "preicision": {
+            "train": 0.42,
+            "dev": 0.34
+        },
+        "info": {
+            "p_1": {
+                "prompt": "evaluate each sentence as either objective or subjective.",
+                "train_score": 107,
+                "dev_score": 139,
+                "precision": {
+                    "train": 0.535,
+                    "dev": 0.4633333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "Given a statement, classify it as expressing a subjective or objective opinion.",
+                "train_score": 85,
+                "dev_score": 95,
+                "precision": {
+                    "train": 0.425,
+                    "dev": 0.31666666666666665
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Determine if each sentence is either \"objective\" or \"subjective\" while keeping its meaning.",
+        "train_score": 91,
+        "dev_score": 109,
+        "preicision": {
+            "train": 0.455,
+            "dev": 0.36333333333333334
+        },
+        "info": {
+            "p_1": {
+                "prompt": "classify each sentence as either \"objective\" or \"subjective\".",
+                "train_score": 107,
+                "dev_score": 135,
+                "precision": {
+                    "train": 0.535,
+                    "dev": 0.45
+                }
+            },
+            "p_2": {
+                "prompt": "Please perform Subjectivity Classification task. Given the sentence, assign a label from ['subjective', 'objective']. Return label only without any other text.",
+                "train_score": 104,
+                "dev_score": 140,
+                "precision": {
+                    "train": 0.52,
+                    "dev": 0.4666666666666667
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Determine if each sentence is \"objective\" or \"subjective\" while keeping its meaning intact.",
+        "train_score": 89,
+        "dev_score": 109,
+        "preicision": {
+            "train": 0.445,
+            "dev": 0.36333333333333334
+        },
+        "info": {
+            "p_1": {
+                "prompt": "classify each sentence as either \"objective\" or \"subjective\".",
+                "train_score": 107,
+                "dev_score": 135,
+                "precision": {
+                    "train": 0.535,
+                    "dev": 0.45
+                }
+            },
+            "p_2": {
+                "prompt": "identify whether the given sentence was expressing an objective or a subjective opinion.",
+                "train_score": 95,
+                "dev_score": 121,
+                "precision": {
+                    "train": 0.475,
+                    "dev": 0.4033333333333333
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Identify whether a statement is conveying a subjective or objective opinion.",
+        "train_score": 81,
+        "dev_score": 116,
+        "preicision": {
+            "train": 0.405,
+            "dev": 0.38666666666666666
+        },
+        "info": {
+            "p_1": {
+                "prompt": "classify each sentence as either \"objective\" or \"subjective\".",
+                "train_score": 107,
+                "dev_score": 135,
+                "precision": {
+                    "train": 0.535,
+                    "dev": 0.45
+                }
+            },
+            "p_2": {
+                "prompt": "Given a statement, classify it as expressing a subjective or objective opinion.",
+                "train_score": 85,
+                "dev_score": 95,
+                "precision": {
+                    "train": 0.425,
+                    "dev": 0.31666666666666665
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Analyze the sentences and classify them as subjective or objective.",
+        "train_score": 98,
+        "dev_score": 128,
+        "preicision": {
+            "train": 0.49,
+            "dev": 0.4266666666666667
+        },
+        "info": {
+            "p_1": {
+                "prompt": "evaluate the given sentences and determine whether they are subjective or objective.",
+                "train_score": 107,
+                "dev_score": 149,
+                "precision": {
+                    "train": 0.535,
+                    "dev": 0.49666666666666665
+                }
+            },
+            "p_2": {
+                "prompt": "Please perform Subjectivity Classification task. Given the sentence, assign a label from ['subjective', 'objective']. Return label only without any other text.",
+                "train_score": 104,
+                "dev_score": 140,
+                "precision": {
+                    "train": 0.52,
+                    "dev": 0.4666666666666667
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Examine the given sentence and decide if it represents a subjective or objective opinion.",
+        "train_score": 93,
+        "dev_score": 127,
+        "preicision": {
+            "train": 0.465,
+            "dev": 0.42333333333333334
+        },
+        "info": {
+            "p_1": {
+                "prompt": "evaluate the given sentences and determine whether they are subjective or objective.",
+                "train_score": 107,
+                "dev_score": 149,
+                "precision": {
+                    "train": 0.535,
+                    "dev": 0.49666666666666665
+                }
+            },
+            "p_2": {
+                "prompt": "identify whether the given sentence was expressing an objective or a subjective opinion.",
+                "train_score": 95,
+                "dev_score": 121,
+                "precision": {
+                    "train": 0.475,
+                    "dev": 0.4033333333333333
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Determine if a sentence belongs to the subjective or objective category.",
+        "train_score": 80,
+        "dev_score": 103,
+        "preicision": {
+            "train": 0.4,
+            "dev": 0.3433333333333333
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Given a sentence, classify it as either subjective or objective category.",
+                "train_score": 106,
+                "dev_score": 132,
+                "precision": {
+                    "train": 0.53,
+                    "dev": 0.44
+                }
+            },
+            "p_2": {
+                "prompt": "evaluate each statement as either subjective or objective.",
+                "train_score": 103,
+                "dev_score": 140,
+                "precision": {
+                    "train": 0.515,
+                    "dev": 0.4666666666666667
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Determine if each statement is subjective or objective.",
+        "train_score": 82,
+        "dev_score": 113,
+        "preicision": {
+            "train": 0.41,
+            "dev": 0.37666666666666665
+        },
+        "info": {
+            "p_1": {
+                "prompt": "evaluate each statement as either subjective or objective.",
+                "train_score": 103,
+                "dev_score": 140,
+                "precision": {
+                    "train": 0.515,
+                    "dev": 0.4666666666666667
+                }
+            },
+            "p_2": {
+                "prompt": "identify whether the given sentence was expressing an objective or a subjective opinion.",
+                "train_score": 95,
+                "dev_score": 121,
+                "precision": {
+                    "train": 0.475,
+                    "dev": 0.4033333333333333
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Determine if the provided sentence is conveying a subjective or objective opinion.",
+        "train_score": 86,
+        "dev_score": 108,
+        "preicision": {
+            "train": 0.43,
+            "dev": 0.36
+        },
+        "info": {
+            "p_1": {
+                "prompt": "identify whether the given sentence was expressing an objective or a subjective opinion.",
+                "train_score": 95,
+                "dev_score": 121,
+                "precision": {
+                    "train": 0.475,
+                    "dev": 0.4033333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "Given a statement, classify it as expressing a subjective or objective opinion.",
+                "train_score": 85,
+                "dev_score": 95,
+                "precision": {
+                    "train": 0.425,
+                    "dev": 0.31666666666666665
+                }
+            }
+        }
+    }
+]

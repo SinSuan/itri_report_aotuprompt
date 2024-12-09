@@ -1,0 +1,32 @@
+[
+    {
+        "prompt": "Your task is to classify the comment \"positive\" or \"negative\".\n",
+        "train_score": 184,
+        "dev_score": 455
+    },
+    {
+        "prompt": "Given a sentence, classify it as either positive or negative sentiment.\n",
+        "train_score": 182,
+        "dev_score": 444
+    },
+    {
+        "prompt": "Given a statement, classify it as expressing a positive or negative opinion.\n",
+        "train_score": 182,
+        "dev_score": 453
+    },
+    {
+        "prompt": "Given a statement, classify it as either expressing approval or disapproval.\n",
+        "train_score": 184,
+        "dev_score": 446
+    },
+    {
+        "prompt": "In this task, you are given sentences from movie reviews. The task is to classify a sentence as  positive or as negative.\n",
+        "train_score": 183,
+        "dev_score": 458
+    },
+    {
+        "prompt": "Please label the sentiment towards the movie of the given movie review. The sentiment label should be \"positive\" or \"negative\". \n",
+        "train_score": 181,
+        "dev_score": 456
+    }
+]

@@ -1,0 +1,149 @@
+[
+    {
+        "prompt": "Identify the primary subject of the text and select a category from World, Sports, Tech, or Business.",
+        "train_score": 155,
+        "dev_score": 361,
+        "preicision": {
+            "train": 0.775,
+            "dev": 0.722
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Give the main topic of the news article and then choose from World, Sports, Tech and Business.",
+                "train_score": 170,
+                "dev_score": 399
+            },
+            "p_2": {
+                "prompt": "Choose a word from World, Sports, Business and Tech to categorize the given text.",
+                "train_score": 163,
+                "dev_score": 377
+            }
+        }
+    },
+    {
+        "prompt": "Identify the topic from World, Sports, Business, and Tech for the text.",
+        "train_score": 155,
+        "dev_score": 332,
+        "preicision": {
+            "train": 0.775,
+            "dev": 0.664
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Determine the the topic of the item and then choose from World, Sports, Business and Tech.",
+                "train_score": 167,
+                "dev_score": 375
+            },
+            "p_2": {
+                "prompt": "Choose a word from World, Sports, Business and Tech to categorize the given text.",
+                "train_score": 163,
+                "dev_score": 377
+            }
+        }
+    },
+    {
+        "prompt": "Identify the primary theme of a news article and categorize it as \"World\", \"Sports\", \"Tech\", or \"Business\".",
+        "train_score": 155,
+        "dev_score": 362,
+        "preicision": {
+            "train": 0.775,
+            "dev": 0.724
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Your job is to determine whether a news article belongs to the World, Sports, Business, or Tech category based on its primary theme.",
+                "train_score": 164,
+                "dev_score": 385
+            },
+            "p_2": {
+                "prompt": "Classify the topic of the following news as \"World\", \"Sports\", \"Tech\" or \"Business\".",
+                "train_score": 150,
+                "dev_score": 341
+            }
+        }
+    },
+    {
+        "prompt": "Assign a category to the given text from World, Sports, Business, or Tech.",
+        "train_score": 145,
+        "dev_score": 355,
+        "preicision": {
+            "train": 0.725,
+            "dev": 0.71
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Choose a word from World, Sports, Business and Tech to categorize the given text.",
+                "train_score": 163,
+                "dev_score": 377
+            },
+            "p_2": {
+                "prompt": "Your responsibility is to assign a news article to one of four categories: World, Sports, Business, or Tech, based on its main idea.",
+                "train_score": 159,
+                "dev_score": 365
+            }
+        }
+    },
+    {
+        "prompt": "Determine the primary subject of the news text and categorize it as \"World\", \"Sports\", \"Tech\", or \"Business\".",
+        "train_score": 148,
+        "dev_score": 359,
+        "preicision": {
+            "train": 0.74,
+            "dev": 0.718
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Classify the topic of the following news as \"World\", \"Sports\", \"Tech\" or \"Business\".",
+                "train_score": 150,
+                "dev_score": 341
+            },
+            "p_2": {
+                "prompt": "You will be given a news article and asked to classify it as World, Sports, Business and Tech, depending on its main topic.",
+                "train_score": 138,
+                "dev_score": 319
+            }
+        }
+    },
+    {
+        "prompt": "Classify the news item as \"World\", \"Sports\", \"Tech\", or \"Business\" based on its main theme.",
+        "train_score": 156,
+        "dev_score": 365,
+        "preicision": {
+            "train": 0.78,
+            "dev": 0.73
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Based on the main theme of given the news article, categorize it into World, Sports, Business, or Tech.",
+                "train_score": 172,
+                "dev_score": 402
+            },
+            "p_2": {
+                "prompt": "Your task is to classify the news item as \"World\", \"Sports\", \"Tech\" or \"Business\".",
+                "train_score": 152,
+                "dev_score": 349
+            }
+        }
+    },
+    {
+        "prompt": "Determine the category of the news item among \"World\", \"Sports\", \"Tech\", or \"Business\".",
+        "train_score": 158,
+        "dev_score": 373,
+        "preicision": {
+            "train": 0.79,
+            "dev": 0.746
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Your task is to classify the news item as \"World\", \"Sports\", \"Tech\" or \"Business\".",
+                "train_score": 152,
+                "dev_score": 349
+            },
+            "p_2": {
+                "prompt": "Classify the topic of the following news as \"World\", \"Sports\", \"Tech\" or \"Business\".",
+                "train_score": 150,
+                "dev_score": 341
+            }
+        }
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "prompt": "Assess the movie review's sentiment and categorize it using a scale from 1 to 5, where 1 represents \"terrible\" and 5 represents \"great.\"",
+        "train_score": 88,
+        "dev_score": 255,
+        "preicision": {
+            "train": 0.44,
+            "dev": 0.51
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Determine the sentiment of the movie review and choose from terrible, bad, okay, good and great to describe the movie.",
+                "train_score": 104,
+                "dev_score": 276
+            },
+            "p_2": {
+                "prompt": "Your job is to evaluate the review and classify it as one of five classes: 1 for terrible and 5 for great.",
+                "train_score": 87,
+                "dev_score": 252
+            }
+        }
+    },
+    {
+        "prompt": "Evaluate the movie review's sentiment and use a scale of 1 to 5 to rate it.",
+        "train_score": 86,
+        "dev_score": 252,
+        "preicision": {
+            "train": 0.43,
+            "dev": 0.504
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Determine the sentiment of the movie review and choose from terrible, bad, okay, good and great to describe the movie.",
+                "train_score": 104,
+                "dev_score": 276
+            },
+            "p_2": {
+                "prompt": "Assess the movie review and categorize it into one of five classes, ranging from 1 to 5",
+                "train_score": 48,
+                "dev_score": 125
+            }
+        }
+    },
+    {
+        "prompt": "Analyze movie reviews and categorize them into five groups: terrible, bad, okay, good, and great.",
+        "train_score": 85,
+        "dev_score": 240,
+        "preicision": {
+            "train": 0.425,
+            "dev": 0.48
+        },
+        "info": {
+            "p_1": {
+                "prompt": "In this task, you are given movie reviews. Based on it, classify it to one of the ﬁve classes: (1) terrible, (2) bad, (3) okay, (4) good, and (5) great.",
+                "train_score": 103,
+                "dev_score": 262
+            },
+            "p_2": {
+                "prompt": "Examine the comment provided and classify it into one of five categories: terrible, bad, okay, good, or great.",
+                "train_score": 98,
+                "dev_score": 249
+            }
+        }
+    },
+    {
+        "prompt": "Analyze the movie review and categorize it into one of five levels: terrible (1), bad (2), okay (3), good (4), or great (5).",
+        "train_score": 77,
+        "dev_score": 208,
+        "preicision": {
+            "train": 0.385,
+            "dev": 0.416
+        },
+        "info": {
+            "p_1": {
+                "prompt": "In this task, you are given movie reviews. Based on it, classify it to one of the ﬁve classes: (1) terrible, (2) bad, (3) okay, (4) good, and (5) great.",
+                "train_score": 103,
+                "dev_score": 262
+            },
+            "p_2": {
+                "prompt": "Your goal is to analyze the movie review and assign it to one of five categories, 1 for terrible and 5 for great.",
+                "train_score": 95,
+                "dev_score": 275
+            }
+        }
+    },
+    {
+        "prompt": "Based on movie reviews, classify them into five classes from 1 to 5.",
+        "train_score": 69,
+        "dev_score": 188,
+        "preicision": {
+            "train": 0.345,
+            "dev": 0.376
+        },
+        "info": {
+            "p_1": {
+                "prompt": "In this task, you are given movie reviews. Based on it, classify it to one of the ﬁve classes: (1) terrible, (2) bad, (3) okay, (4) good, and (5) great.",
+                "train_score": 103,
+                "dev_score": 262
+            },
+            "p_2": {
+                "prompt": "Assess the movie review and categorize it into one of five classes, ranging from 1 to 5",
+                "train_score": 48,
+                "dev_score": 125
+            }
+        }
+    },
+    {
+        "prompt": "Rate the movie review according to its quality using a scale of 1 to 5, where 1 is terrible and 5 is great.",
+        "train_score": 86,
+        "dev_score": 233,
+        "preicision": {
+            "train": 0.43,
+            "dev": 0.466
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Classify the movie review into one of five categories based on their quality: terrible, bad, okay, good, or great.",
+                "train_score": 97,
+                "dev_score": 265
+            },
+            "p_2": {
+                "prompt": "Assess the movie review and categorize it into one of five classes, ranging from 1 to 5",
+                "train_score": 48,
+                "dev_score": 125
+            }
+        }
+    },
+    {
+        "prompt": "Classify the given movie review into one of five sentiment categories, from 1 (terrible) to 5 (great).",
+        "train_score": 86,
+        "dev_score": 254,
+        "preicision": {
+            "train": 0.43,
+            "dev": 0.508
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Your responsibility is to categorize the movie review provided to you into one of five categories based on the sentiment: 1 for terrible and 5 for great.",
+                "train_score": 96,
+                "dev_score": 267
+            },
+            "p_2": {
+                "prompt": "Assess the movie review and categorize it into one of five classes, ranging from 1 to 5",
+                "train_score": 48,
+                "dev_score": 125
+            }
+        }
+    },
+    {
+        "prompt": "Rate the movie review and categorize it into one of five classes, ranging from 1 to 5.",
+        "train_score": 72,
+        "dev_score": 201,
+        "preicision": {
+            "train": 0.36,
+            "dev": 0.402
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Based on the movie review provided, assign the moviw to one of five categories: terrible, bad, okay, good, or great.",
+                "train_score": 93,
+                "dev_score": 255
+            },
+            "p_2": {
+                "prompt": "Assess the movie review and categorize it into one of five classes, ranging from 1 to 5",
+                "train_score": 48,
+                "dev_score": 125
+            }
+        }
+    },
+    {
+        "prompt": "Rate the movie review from 1 to 5, where 1 is terrible and 5 is great.",
+        "train_score": 89,
+        "dev_score": 251,
+        "preicision": {
+            "train": 0.445,
+            "dev": 0.502
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Based on the movie review provided, assign the moviw to one of five categories: terrible, bad, okay, good, or great.",
+                "train_score": 93,
+                "dev_score": 255
+            },
+            "p_2": {
+                "prompt": "Your objective is to evaluate the the sentiment of the movie review and categorize it into one of five classes, ranging from 1 to 5",
+                "train_score": 22,
+                "dev_score": 78
+            }
+        }
+    },
+    {
+        "prompt": "Assess the review and assign it to one of five ratings, ranging from 1 (terrible) to 5 (great), while simplifying the task.",
+        "train_score": 87,
+        "dev_score": 247,
+        "preicision": {
+            "train": 0.435,
+            "dev": 0.494
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Your job is to evaluate the review and classify it as one of five classes: 1 for terrible and 5 for great.",
+                "train_score": 87,
+                "dev_score": 252
+            },
+            "p_2": {
+                "prompt": "Your objective is to analyze the movie review and allocate it to one of five categories, from 1 to 5",
+                "train_score": 60,
+                "dev_score": 148
+            }
+        }
+    }
+]

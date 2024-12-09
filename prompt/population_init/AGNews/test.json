@@ -1,0 +1,57 @@
+[
+    {
+        "prompt": "Give the main topic of the news article and then choose from World, Sports, Tech and Business.",
+        "train_score": 170,
+        "dev_score": 399
+    },
+    {
+        "prompt": "Determine the the topic of the item and then choose from World, Sports, Business and Tech.",
+        "train_score": 167,
+        "dev_score": 375
+    },
+    {
+        "prompt": "Based on the main theme of given the news article, categorize it into World, Sports, Business, or Tech.",
+        "train_score": 172,
+        "dev_score": 402
+    },
+    {
+        "prompt": "Determine the theme of the news item. Choose from World, Sports, Business and Tech.",
+        "train_score": 167,
+        "dev_score": 406
+    },
+    {
+        "prompt": "Your objective is to classify a news article into one of four themes: World, Sports, Business and Tech.",
+        "train_score": 166,
+        "dev_score": 379
+    },
+    {
+        "prompt": "Your task is to identify the primary topic of the news artical and choose from World, Sports, Business and Tech.",
+        "train_score": 173,
+        "dev_score": 409
+    },
+    {
+        "prompt": "Your job is to determine whether a news article belongs to the World, Sports, Business, or Tech category based on its primary theme.",
+        "train_score": 164,
+        "dev_score": 385
+    },
+    {
+        "prompt": "Categorize the news article into one of four categories: World, Sports, Business, or Tech, based on its content.",
+        "train_score": 164,
+        "dev_score": 378
+    },
+    {
+        "prompt": "Choose a word from World, Sports, Business and Tech to categorize the given text.",
+        "train_score": 163,
+        "dev_score": 377
+    },
+    {
+        "prompt": "You will be required to classify a news article as World, Sports, Business, or Tech based on its primary topic.",
+        "train_score": 167,
+        "dev_score": 385
+    },
+    {
+        "prompt": "In this task, you are given a news article. Your task is to classify the article to one out of the four topics \"World\", \"Sports\", \"Business\", \"Tech\" if the article\"s main topic is relevant to the world, sports, business, and technology, correspondingly. If you are not sure about the topic, choose the closest option.",
+        "train_score": 167,
+        "dev_score": 402
+    }
+]

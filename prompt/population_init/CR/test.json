@@ -1,0 +1,74 @@
+[
+    {
+        "prompt": "Please perform Sentiment Classification task. Given the sentence, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.",
+        "train_score": 182,
+        "dev_score": 300,
+        "precision": {
+            "train": 0.91,
+            "dev": 0.9230769230769231
+        }
+    },
+    {
+        "prompt": "Your task is to classify the comment \"positive\" or \"negative\".",
+        "train_score": 185,
+        "dev_score": 298,
+        "precision": {
+            "train": 0.925,
+            "dev": 0.916923076923077
+        }
+    },
+    {
+        "prompt": "Determine the sentiment of a product review based on a given text, positive or negative.",
+        "train_score": 183,
+        "dev_score": 298,
+        "precision": {
+            "train": 0.915,
+            "dev": 0.916923076923077
+        }
+    },
+    {
+        "prompt": "Given a tweet, classify it as having a positive or negative sentiment.",
+        "train_score": 183,
+        "dev_score": 298,
+        "precision": {
+            "train": 0.915,
+            "dev": 0.916923076923077
+        }
+    },
+    {
+        "prompt": "Given a statement, classify it as either expressing approval or disapproval.",
+        "train_score": 183,
+        "dev_score": 297,
+        "precision": {
+            "train": 0.915,
+            "dev": 0.9138461538461539
+        }
+    },
+    {
+        "prompt": "Determine the sentiment of the text provided, positve or negative.",
+        "train_score": 183,
+        "dev_score": 302,
+        "precision": {
+            "train": 0.915,
+            "dev": 0.9292307692307692
+        }
+    },
+    {
+        "prompt": "In this task, you are given sentences from product reviews. The task is to classify a sentence as  positive or as negative.",
+        "train_score": 185,
+        "dev_score": 303,
+        "precision": {
+            "train": 0.925,
+            "dev": 0.9323076923076923
+        }
+    },
+    {
+        "prompt": "When given an English sentence, your task is to analyze it and generate a sentiment word to describe the original text, such as positive or negative.",
+        "train_score": 182,
+        "dev_score": 296,
+        "precision": {
+            "train": 0.91,
+            "dev": 0.9107692307692308
+        }
+    }
+]

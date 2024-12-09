@@ -1,0 +1,611 @@
+[
+    {
+        "prompt": "Analyze an English sentence and determine whether it conveys a positive or negative sentiment.",
+        "train_score": 184,
+        "dev_score": 262,
+        "preicision": {
+            "train": 0.92,
+            "dev": 0.8733333333333333
+        },
+        "info": {
+            "p_1": {
+                "prompt": "When given an English sentence, your task is to analyze it and generate a sentiment word to describe the original text, such as positive or negative.",
+                "train_score": 191,
+                "dev_score": 271,
+                "precision": {
+                    "train": 0.955,
+                    "dev": 0.9033333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "Given a statement, classify it as expressing a positive or negative opinion.",
+                "train_score": 190,
+                "dev_score": 284,
+                "precision": {
+                    "train": 0.95,
+                    "dev": 0.9466666666666667
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Analyze an English sentence or tweet and determine its sentiment as positive or negative.",
+        "train_score": 182,
+        "dev_score": 266,
+        "preicision": {
+            "train": 0.91,
+            "dev": 0.8866666666666667
+        },
+        "info": {
+            "p_1": {
+                "prompt": "When given an English sentence, your task is to analyze it and generate a sentiment word to describe the original text, such as positive or negative.",
+                "train_score": 191,
+                "dev_score": 271,
+                "precision": {
+                    "train": 0.955,
+                    "dev": 0.9033333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "Given a tweet, classify it as having a positive or negative sentiment.",
+                "train_score": 188,
+                "dev_score": 275,
+                "precision": {
+                    "train": 0.94,
+                    "dev": 0.9166666666666666
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Analyze an English sentence and determine its sentiment polarity, either positive or negative.",
+        "train_score": 184,
+        "dev_score": 270,
+        "preicision": {
+            "train": 0.92,
+            "dev": 0.9
+        },
+        "info": {
+            "p_1": {
+                "prompt": "When given an English sentence, your task is to analyze it and generate a sentiment word to describe the original text, such as positive or negative.",
+                "train_score": 191,
+                "dev_score": 271,
+                "precision": {
+                    "train": 0.955,
+                    "dev": 0.9033333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "Now you are a classifier, your task is to determine the sentiment polarity of the given text, whether positive or negative.",
+                "train_score": 188,
+                "dev_score": 272,
+                "precision": {
+                    "train": 0.94,
+                    "dev": 0.9066666666666666
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Analyze an English sentence and determine its sentiment, such as positive or negative, while classifying it as expressing optimism or pessimism.",
+        "train_score": 181,
+        "dev_score": 270,
+        "preicision": {
+            "train": 0.905,
+            "dev": 0.9
+        },
+        "info": {
+            "p_1": {
+                "prompt": "When given an English sentence, your task is to analyze it and generate a sentiment word to describe the original text, such as positive or negative.",
+                "train_score": 191,
+                "dev_score": 271,
+                "precision": {
+                    "train": 0.955,
+                    "dev": 0.9033333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "Classify a sentence as expressing optimism or pessimism.",
+                "train_score": 187,
+                "dev_score": 273,
+                "precision": {
+                    "train": 0.935,
+                    "dev": 0.91
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Analyze an English sentence and determine its sentiment, either positive or negative, while considering its meaning and context.",
+        "train_score": 184,
+        "dev_score": 272,
+        "preicision": {
+            "train": 0.92,
+            "dev": 0.9066666666666666
+        },
+        "info": {
+            "p_1": {
+                "prompt": "When given an English sentence, your task is to analyze it and generate a sentiment word to describe the original text, such as positive or negative.",
+                "train_score": 191,
+                "dev_score": 271,
+                "precision": {
+                    "train": 0.955,
+                    "dev": 0.9033333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as positive or negative.",
+                "train_score": 181,
+                "dev_score": 270,
+                "precision": {
+                    "train": 0.905,
+                    "dev": 0.9
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Determine whether the comment or tweet has a positive or negative sentiment.",
+        "train_score": 184,
+        "dev_score": 272,
+        "preicision": {
+            "train": 0.92,
+            "dev": 0.9066666666666666
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Your task is to classify the comment \"positive\" or \"negative\".",
+                "train_score": 190,
+                "dev_score": 279,
+                "precision": {
+                    "train": 0.95,
+                    "dev": 0.93
+                }
+            },
+            "p_2": {
+                "prompt": "Given a tweet, classify it as having a positive or negative sentiment.",
+                "train_score": 188,
+                "dev_score": 275,
+                "precision": {
+                    "train": 0.94,
+                    "dev": 0.9166666666666666
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Your goal is to categorize the remark as \"positive\" or \"negative\" while preserving its meaning.",
+        "train_score": 185,
+        "dev_score": 274,
+        "preicision": {
+            "train": 0.925,
+            "dev": 0.9133333333333333
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Your task is to classify the comment \"positive\" or \"negative\".",
+                "train_score": 190,
+                "dev_score": 279,
+                "precision": {
+                    "train": 0.95,
+                    "dev": 0.93
+                }
+            },
+            "p_2": {
+                "prompt": "In this task, you are given sentences from movie reviews. The task is to classify a sentence as  positive or as negative.",
+                "train_score": 188,
+                "dev_score": 278,
+                "precision": {
+                    "train": 0.94,
+                    "dev": 0.9266666666666666
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Analyze a sentence's sentiment, determining if it's positive or negative.",
+        "train_score": 184,
+        "dev_score": 268,
+        "preicision": {
+            "train": 0.92,
+            "dev": 0.8933333333333333
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Given a sentence, classify it as either positive or negative sentiment.",
+                "train_score": 190,
+                "dev_score": 278,
+                "precision": {
+                    "train": 0.95,
+                    "dev": 0.9266666666666666
+                }
+            },
+            "p_2": {
+                "prompt": "You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as positive or negative.",
+                "train_score": 181,
+                "dev_score": 270,
+                "precision": {
+                    "train": 0.905,
+                    "dev": 0.9
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Analyze a statement and determine if it expresses a positive or negative sentiment.",
+        "train_score": 184,
+        "dev_score": 269,
+        "preicision": {
+            "train": 0.92,
+            "dev": 0.8966666666666666
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Given a statement, classify it as expressing a positive or negative opinion.",
+                "train_score": 190,
+                "dev_score": 284,
+                "precision": {
+                    "train": 0.95,
+                    "dev": 0.9466666666666667
+                }
+            },
+            "p_2": {
+                "prompt": "Given text, classify whether it is positive or negative.",
+                "train_score": 190,
+                "dev_score": 279,
+                "precision": {
+                    "train": 0.95,
+                    "dev": 0.93
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Analyze the sentiment of a statement or text as either positive or negative.",
+        "train_score": 185,
+        "dev_score": 275,
+        "preicision": {
+            "train": 0.925,
+            "dev": 0.9166666666666666
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Given a statement, classify it as expressing a positive or negative opinion.",
+                "train_score": 190,
+                "dev_score": 284,
+                "precision": {
+                    "train": 0.95,
+                    "dev": 0.9466666666666667
+                }
+            },
+            "p_2": {
+                "prompt": "Determine the sentiment of a movie review based on a given text, positive or negative.",
+                "train_score": 189,
+                "dev_score": 280,
+                "precision": {
+                    "train": 0.945,
+                    "dev": 0.9333333333333333
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Determine if a statement or tweet carries a positive or negative sentiment.",
+        "train_score": 185,
+        "dev_score": 277,
+        "preicision": {
+            "train": 0.925,
+            "dev": 0.9233333333333333
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Given a statement, classify it as expressing a positive or negative opinion.",
+                "train_score": 190,
+                "dev_score": 284,
+                "precision": {
+                    "train": 0.95,
+                    "dev": 0.9466666666666667
+                }
+            },
+            "p_2": {
+                "prompt": "Given a tweet, classify it as having a positive or negative sentiment.",
+                "train_score": 188,
+                "dev_score": 275,
+                "precision": {
+                    "train": 0.94,
+                    "dev": 0.9166666666666666
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Determine if a statement conveys a positive or negative sentiment.",
+        "train_score": 185,
+        "dev_score": 266,
+        "preicision": {
+            "train": 0.925,
+            "dev": 0.8866666666666667
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Given a statement, classify it as expressing a positive or negative opinion.",
+                "train_score": 190,
+                "dev_score": 284,
+                "precision": {
+                    "train": 0.95,
+                    "dev": 0.9466666666666667
+                }
+            },
+            "p_2": {
+                "prompt": "You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as positive or negative.",
+                "train_score": 181,
+                "dev_score": 270,
+                "precision": {
+                    "train": 0.905,
+                    "dev": 0.9
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Label the sentiment of the given text as \"positive\" or \"negative\".",
+        "train_score": 183,
+        "dev_score": 268,
+        "preicision": {
+            "train": 0.915,
+            "dev": 0.8933333333333333
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Please label the sentiment towards the movie of the given movie review. The sentiment label should be \"positive\" or \"negative\".",
+                "train_score": 190,
+                "dev_score": 278,
+                "precision": {
+                    "train": 0.95,
+                    "dev": 0.9266666666666666
+                }
+            },
+            "p_2": {
+                "prompt": "Given a tweet, classify it as having a positive or negative sentiment.",
+                "train_score": 188,
+                "dev_score": 275,
+                "precision": {
+                    "train": 0.94,
+                    "dev": 0.9166666666666666
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Analyze the sentiment of given text, classifying it as positive or negative.",
+        "train_score": 185,
+        "dev_score": 276,
+        "preicision": {
+            "train": 0.925,
+            "dev": 0.92
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Given text, classify whether it is positive or negative.",
+                "train_score": 190,
+                "dev_score": 279,
+                "precision": {
+                    "train": 0.95,
+                    "dev": 0.93
+                }
+            },
+            "p_2": {
+                "prompt": "In this task, you are given sentences from movie reviews. The task is to classify a sentence as  positive or as negative.",
+                "train_score": 188,
+                "dev_score": 278,
+                "precision": {
+                    "train": 0.94,
+                    "dev": 0.9266666666666666
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Analyze the sentiment of a text and assign a label, either 'negative' or 'positive', for the given sentence.",
+        "train_score": 184,
+        "dev_score": 271,
+        "preicision": {
+            "train": 0.92,
+            "dev": 0.9033333333333333
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Please perform Sentiment Classification task. Given the sentence, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.",
+                "train_score": 189,
+                "dev_score": 274,
+                "precision": {
+                    "train": 0.945,
+                    "dev": 0.9133333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "Determine the sentiment of a movie review based on a given text, positive or negative.",
+                "train_score": 189,
+                "dev_score": 280,
+                "precision": {
+                    "train": 0.945,
+                    "dev": 0.9333333333333333
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Perform Sentiment Analysis on the input text and assign a sentiment label ('negative' or 'positive'). Return only the label without any other text.",
+        "train_score": 184,
+        "dev_score": 266,
+        "preicision": {
+            "train": 0.92,
+            "dev": 0.8866666666666667
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Please perform Sentiment Classification task. Given the sentence, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.",
+                "train_score": 189,
+                "dev_score": 274,
+                "precision": {
+                    "train": 0.945,
+                    "dev": 0.9133333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "Given a tweet, classify it as having a positive or negative sentiment.",
+                "train_score": 188,
+                "dev_score": 275,
+                "precision": {
+                    "train": 0.94,
+                    "dev": 0.9166666666666666
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Perform Sentiment Classification task on the given sentence and assign a sentiment label from ['negative', 'positive']. Return the label only.",
+        "train_score": 185,
+        "dev_score": 268,
+        "preicision": {
+            "train": 0.925,
+            "dev": 0.8933333333333333
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Please perform Sentiment Classification task. Given the sentence, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.",
+                "train_score": 189,
+                "dev_score": 274,
+                "precision": {
+                    "train": 0.945,
+                    "dev": 0.9133333333333333
+                }
+            },
+            "p_2": {
+                "prompt": "Now you are a classifier, your task is to determine the sentiment polarity of the given text, whether positive or negative.",
+                "train_score": 188,
+                "dev_score": 272,
+                "precision": {
+                    "train": 0.94,
+                    "dev": 0.9066666666666666
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Analyze the sentiment polarity of the given text.",
+        "train_score": 181,
+        "dev_score": 266,
+        "preicision": {
+            "train": 0.905,
+            "dev": 0.8866666666666667
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Given a tweet, classify it as having a positive or negative sentiment.",
+                "train_score": 188,
+                "dev_score": 275,
+                "precision": {
+                    "train": 0.94,
+                    "dev": 0.9166666666666666
+                }
+            },
+            "p_2": {
+                "prompt": "Now you are a classifier, your task is to determine the sentiment polarity of the given text, whether positive or negative.",
+                "train_score": 188,
+                "dev_score": 272,
+                "precision": {
+                    "train": 0.94,
+                    "dev": 0.9066666666666666
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Analyze a tweet and determine its sentiment as positive or negative.",
+        "train_score": 183,
+        "dev_score": 269,
+        "preicision": {
+            "train": 0.915,
+            "dev": 0.8966666666666666
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Given a tweet, classify it as having a positive or negative sentiment.",
+                "train_score": 188,
+                "dev_score": 275,
+                "precision": {
+                    "train": 0.94,
+                    "dev": 0.9166666666666666
+                }
+            },
+            "p_2": {
+                "prompt": "Given a statement, classify it as either expressing approval or disapproval.",
+                "train_score": 186,
+                "dev_score": 283,
+                "precision": {
+                    "train": 0.93,
+                    "dev": 0.9433333333333334
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Analyze a tweet's sentiment by understanding its meaning and context, then categorize it as positive or negative.",
+        "train_score": 183,
+        "dev_score": 268,
+        "preicision": {
+            "train": 0.915,
+            "dev": 0.8933333333333333
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Given a tweet, classify it as having a positive or negative sentiment.",
+                "train_score": 188,
+                "dev_score": 275,
+                "precision": {
+                    "train": 0.94,
+                    "dev": 0.9166666666666666
+                }
+            },
+            "p_2": {
+                "prompt": "You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as positive or negative.",
+                "train_score": 181,
+                "dev_score": 270,
+                "precision": {
+                    "train": 0.905,
+                    "dev": 0.9
+                }
+            }
+        }
+    },
+    {
+        "prompt": "Determine if a statement shows approval or disapproval while considering its meaning and context.",
+        "train_score": 185,
+        "dev_score": 278,
+        "preicision": {
+            "train": 0.925,
+            "dev": 0.9266666666666666
+        },
+        "info": {
+            "p_1": {
+                "prompt": "Given a statement, classify it as either expressing approval or disapproval.",
+                "train_score": 186,
+                "dev_score": 283,
+                "precision": {
+                    "train": 0.93,
+                    "dev": 0.9433333333333334
+                }
+            },
+            "p_2": {
+                "prompt": "You are a sentiment classifier. To do this, you must first understand the meaning of the sentence and any relevant context. And then you should classify it as positive or negative.",
+                "train_score": 181,
+                "dev_score": 270,
+                "precision": {
+                    "train": 0.905,
+                    "dev": 0.9
+                }
+            }
+        }
+    }
+]
