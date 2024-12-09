@@ -1,0 +1,10 @@
+sentence-transformers==3.0.1
+python-dotenv==1.0.1
+numpy==1.24.1
+pytz==2024.1
+tqdm==4.66.4
+requests==2.28.
+torch==0.15.2+cu118
+ray==2.35.0
+
+matplotlib==3.9.1

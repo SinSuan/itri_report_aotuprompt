@@ -1,0 +1,8 @@
+utils/api/
+dataset/
+prompt/
+record/
+prompt/init_population/old/
+config.ini
+test*
+__pycache__/
