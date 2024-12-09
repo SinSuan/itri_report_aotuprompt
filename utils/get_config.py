@@ -9,7 +9,7 @@ def get_folder_project():
     path = None
     for path in sys.path:   # 為了讓 .ipynb 也可以用所以要這樣寫
         path = Path(path)
-        if path.name == "itri":
+        if "itri" in path.name:
             break
 
     return path
@@ -21,7 +21,7 @@ def get_config(path_config=None):
     if path_config is None:
         path = get_folder_project()
         path_config = path / "config.ini"
-
+    print(f"{path_config=}")
     config = configparser.ConfigParser()
     config.read(path_config)
 
