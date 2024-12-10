@@ -21,7 +21,6 @@ def get_config(path_config=None):
     if path_config is None:
         path = get_folder_project()
         path_config = path / "config.ini"
-    print(f"{path_config=}")
     config = configparser.ConfigParser()
     config.read(path_config)
 

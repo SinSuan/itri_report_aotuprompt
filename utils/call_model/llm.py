@@ -5,8 +5,7 @@ from utils.get_config import get_config
 CONFIG = get_config()
 DEBUGGER = CONFIG["DEBUGGER"]["DEBUGGER"]
 
-# URL = CONFIG["breeze"]["lab"]
-SUGGEST_SYSTEM_PROMPT = CONFIG["breeze"]["SUGGEST_SYSTEM_PROMPT"]
+SUGGEST_SYSTEM_PROMPT = CONFIG["model"]["SUGGEST_SYSTEM_PROMPT"]
 
 HEADERS = {
     'accept': 'application/json',
@@ -37,7 +36,7 @@ class CallTGI:
         if DEBUGGER=="True": print(f"\t{host=},\tenter CallTGI.__init__")
 
         if host is None:
-            host = CONFIG["breeze"]["lab"]
+            host = CONFIG["model"]["llm"]
         self.host = host
 
         if headers is None:
@@ -121,7 +120,7 @@ class CallTGI:
                 r = j_result
         except Exception as e:
             print(f"{prompt=}")
-            print(f"Except in api_breeze =\n{e}")
+            print(f"Except in CallTGI =\n{e}")
             raise e
 
         if DEBUGGER=="True": print(f"\t{self.host=},\texit CallTGI.generate")

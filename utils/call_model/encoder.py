@@ -15,7 +15,7 @@ from utils.get_config import get_config
 CONFIG = get_config()
 # DEBUGGER = CONFIG["DEBUGGER"]["DEBUGGER"]
 DEBUGGER = False
-HOST = CONFIG["embedding"]["bgem3"]
+HOST = CONFIG["model"]["embedding"]
 
 class Bgem3:
     """ bge-m3 from lab

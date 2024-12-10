@@ -1,13 +1,10 @@
 [name_full]
 llm = {name_full}
 
-[breeze]
+[model]
 SUGGEST_SYSTEM_PROMPT = {SUGGEST_SYSTEM_PROMPT}
-
-lab = {host}
-
-[embedding]
-bgem3 = {host}
+llm = {host}
+embedding = {host}
 
 # 進出 function 的時候印出來，方便 debug
 [DEBUGGER]

@@ -1,6 +1,5 @@
 import json
 
-from utils.method_update.ReSS import Ress
 from utils.method_update.evo_prompt import CoEvo, CoEvo2, EvoDE, EvoGA, EvoGA4Contr
 from utils.get_score.judge_cls import JudgeAGNnews, JudgeCR, JudgeMR, JudgeSST2, JudgeSST5, JudgeSubj, JudgeTREC
 from utils.ttl_prompt.prompt_4_deal_task import Prompt4DealTask
@@ -119,7 +118,6 @@ def init_updater(**kwargs):
         "EvoGA": EvoGA,
         "CoEvo": CoEvo,
         "CoEvo2": CoEvo2,
-        "Ress": Ress,
         "contr": EvoGA4Contr
     }
     class_updater = switch_updater[type_updater]
