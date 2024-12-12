@@ -1,6 +1,3 @@
-
-
-
 ## Inference
 
 準備環境
@@ -24,4 +21,45 @@ if __name__=="__main__":
 run
 ```
 python main.py
+```
+
+## Code Strucutre
+
+```python
+.
+├── dataset
+│   ├── AGNews
+│   │   └── seed5_200
+│   │       └── seed5_200.json
+│   ...
+│   └── TREC
+│       └── seed5_200
+│           └── seed5_200.json
+├── prompt
+│   ├── contr
+│   │   ├── AGNews
+│   │   │  └── test.json
+│   │   ...
+│   │   └── TREC
+│   │      └── test.json
+│   │
+│   │── population_init
+│   │   ├── AGNews
+│   │   │  └── test.json
+│   │   ...
+│   │   └── TREC
+│   │      └── test.json
+│   │
+│   └── raw
+│       ├── AGNews
+│       │  └── test.json
+│       ...
+│       └── TREC
+│          └── test.json
+│
+├── record
+│   └── {experiment}
+
+
+
 ```
