@@ -23,6 +23,46 @@ if __name__=="__main__":
 python main.py
 ```
 
+## 實驗流程
+
+![架構流程圖](./image/flow_1000.png)
+<div align="center">▲ 架構流程圖</div>
+
+系統提供使用者選擇要優化的任務類別，進行多次優化流程迭帶後，最終得到一個最佳的提示。詳細流程如下：
+
+1. 初始化
+
+    ![初始化流程提示圖](./image/init_1000.png)
+    <div align="center">▲ 初始化流程提示圖</div>
+
+	- **初始化 $$\mathcal{P}_0$$**
+
+        根據使用者選擇的任務種類，獲取對應的原始提示群 $$\mathcal{P}_0^{\text{raw}}$$ 以及任務資料集任務資料。接下來，使用任務資料集對原始提示群進行評分，得到初始提示群 $$\mathcal{P}_0$$。
+
+	- **初始化 $$\mathcal{P}_c$$**
+
+        在完成初始提示群後，系統會將提示進行兩兩配對  ($$p_i$$ 與 $$p_j$$)，列出所有可能組合後，依照給定的上下文學習範例，為每組配對生成一個品質較差的提示，並將其存入 $$\mathcal{P}_c$$。
+
+1. 進行優化
+
+    ![優化流程提示圖](./image/evo_1000.png)
+    <div align="center">▲ 優化流程提示圖</div>
+
+	- **特徵的挑選及變異（上）**
+
+        從初始化完成的對比提示群 $$P_c$$ 中隨機抽出一個負面提示 $$p_c$$，以及從原提示群 $$P_{t-1}$$ 中抽出一個分數最高的正面提示 $$p_{best}$$。利用 LLM 比較兩者間的相同及相異特徵，並對其進行變異後，針對變異後的特徵，將 $$p_{best}$$ 修改成更多樣的 $$p_{\mathrm{best}}^\prime$$，以利跳出局部最佳解。
+
+	- **正向融合（下）**
+
+        最後，將 $$p_{\mathrm{best}}^\prime$$ 與 $$p_i$$ 結合，以期許向更好的方面進步，生成修改後的 $$p_i^\prime$$，並將其加入暫時提示群 \mathcal{P}^\prime 中為後續更新使用。
+
+1. 更新
+
+    ![更新流程提示圖](./image/update_5000.png)
+    <div align="center">▲ 更新流程提示圖</div>
+
+    在每一次完成優化後，將未優化的提示 $$p_i$$ 與優化過後的提示 $$p_i^\prime$$ 互相比較，選擇分數較高的提示作為保留，並將其加入新提示群 $$\mathcal{P}_t$$，作為下一輪優化的族群。
+
 ## 模組說明
 
 本專案的目錄結構涵蓋了多個核心模組，這些模組負責實驗執行、指令生成、以及評分等部分。以下是目錄結構與主要模組的詳細介紹：
@@ -87,59 +127,3 @@ python main.py
 1. **結果  (`record/`)**
 
     所有進化實驗的結果均存放於此資料夾，便於後續分析與比較
-
-
-## Code Strucutre
-
-```python
-.
-├── dataset
-│   ├── AGNews
-│   │   └── seed5_200
-│   │       └── seed5_200.json
-│   ...
-│   └── TREC
-│       └── seed5_200
-│           └── seed5_200.json
-├── prompt
-│   ├── contr
-│   │   ├── AGNews
-│   │   │  └── test.json
-│   │   ...
-│   │   └── TREC
-│   │      └── test.json
-│   │
-│   │── population_init
-│   │   ├── AGNews
-│   │   │  └── test.json
-│   │   ...
-│   │   └── TREC
-│   │      └── test.json
-│   │
-│   └── raw
-│       ├── AGNews
-│       │  └── test.json
-│       ...
-│       └── TREC
-│          └── test.json
-│
-├── record
-│   ├── {experiment_name}
-│   │   ├── {experiment_time}
-│   │   │   ├── {evolver_name}
-│   │   │   │   ├── {iteration_0}
-│   │   │   │   ├── {iteration_1}
-│   │   │   │   ...
-│   │   │   │
-│   │   │   ├── {evolver_name}
-│   │   │   │   ├── {iteration_0}
-│   │   │   │   ├── {iteration_1}
-│   │   │   │   ...
-│   │   │   │
-│   │   └── {experiment_time}
-|
-├── utils
-
-
-
-```
