@@ -34,7 +34,7 @@ python main.py
 列出專案運行所需的所有Python套件及其版本，方便開發者快速配置運行環境。
 1. **模型模組 (utils/)**
 這是系統的核心邏輯模組，包含了演化方法、評分方式、.....等等。主要文件如下：
-- **進化方法 (method_update/)**
+    - **進化方法 (method_update/)**
 o	抽象基底類別：population_updater.py
 提示群可藉由這種類別進行優化。類別中包含新提示生成 (get_distinct_new_propmt) 、評分方法 (evaluate) 、格式化提示群 (formulate_population)。並指定各優化方式須涵蓋的抽象方法，包括選擇父提示 (sample_prompt) 、更新提示群 (update) 、優化流程 (f)。
 o	實現類別：evo_prompt.py
@@ -44,7 +44,7 @@ o	抽象基底類別：judge_abstract.py
 提供模型在特定「提示與資料集」組合下的評估框架，包括呼叫LLM (get_reply)  和實驗設計 (experiment)  等方法，並針對不同任務（如分類問題或開放問答）定義抽象方法，如LLM問答方式 (method)  和回答擷取 (extract_answer)。
 o	實現類別：judge_cls.py
 專為分類任務設計，實現了上述抽象方法，並新增「關鍵字—標籤」轉換器 (set_switch_keyword)  提升處理靈活性。
-- **建立指令 (ttl_prompt/)**
+    - **建立指令 (ttl_prompt/)**
 o	模板：template/
 包含三個模板檔案，用於生成新提示或評分提示時的LLM指令，這些模板以格式化字串（f-string）呈現，便於重複使用。
 o	抽象基底類別：get_prompt.py
