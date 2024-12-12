@@ -58,7 +58,17 @@ python main.py
 │          └── test.json
 │
 ├── record
-│   └── {experiment}
+│   ├── {experiment_name}
+│   │   ├── {experiment_time}
+│   │   │   ├── {evolver_name}
+│   │   │   │   ├── {iteration_0}
+│   │   │   │   ├── {iteration_1}
+│   │   │   │   ...
+│   │   │   │
+│   │   │   ├── {evolver_name}
+│   │   │   │   ├── {iteration_0}
+│   │   │   │   ├── {iteration_1}
+│   │   │   │   ...
 
 
 
